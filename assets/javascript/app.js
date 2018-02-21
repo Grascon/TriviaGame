@@ -46,7 +46,10 @@ $(document).ready(function() {
         $('#countdown').hide();
         $(".doneButton").hide();
         $(".questionsArea").hide();
-        
+        $(".restartButton").append('<button id="restartButton">Restart</button>');
+        $('#restartButton').on('click', function(){
+          location.reload();
+        });
       
         if ($("#Germany1").is(':checked')){
           correctAnswers++;

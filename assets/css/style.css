@@ -31,7 +31,7 @@ button:hover{
 	background-color: #355CBB;
 	color: white;
 }
-.game-title, .start-button, .results, .questionsArea, .doneButton {
+.game-title, .start-button, .results, .questionsArea, .doneButton, .restartButton {
 	text-align: center;
 }
 #countdown{
