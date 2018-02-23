@@ -24,7 +24,8 @@ $(document).ready(function() {
   $(".questionsArea").hide();
 
 //function to start game: displays timer, hides start button, shows questions area
-//displays all questions with answers and buttons
+//displays all questions by appending with answer options and buttons. each answer corresponds with a button with same name
+//to only be able to select one answer. buttons have id's to later determine if answer is correct/incorrect/unanswered later
   function startGame (){
     $('#countdown').html('You have 15 seconds left' + ('<br>'));
     $(".start-button").hide();
@@ -48,7 +49,7 @@ $(document).ready(function() {
 
 //function to submit answers (function will also run when timer is up)
 //when timer is up, clearInterval also runs
-//if statements determine if each question was answered correctly, incorrect or not answered
+//if statements determine if each question was answered correctly, incorrect or not answered using id and 'is(':checked)
 //creates button to restart game when clicked
   function submitAnswers (){
         clearInterval(myTimer);

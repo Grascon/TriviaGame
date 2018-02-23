@@ -1,1 +1,2 @@
 # TriviaGame
+Trivia Game using JQuery. You have 15 seconds to answer 5 questions regarding the World Cup. You must first click the Start button to begin the quiz. If you finish before the time is up you can click the Done button to have your quiz graded. Otherwise, when the time is up your answers will be graded. You will be given a summary of correct/incorrect answers and unanswered questions in addition to a percent score.
