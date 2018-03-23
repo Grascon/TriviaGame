@@ -1,4 +1,4 @@
-html {
+body, html{
 	height: 100%;
 }
 body {  
@@ -7,11 +7,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', serif;
 }
 .container {
 	margin: 50px auto;
-	width: 640px;
 	background-color: #355CBB;
 	border: solid 5px white;
 	border-radius: 25px;
